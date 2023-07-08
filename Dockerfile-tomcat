@@ -13,4 +13,4 @@ COPY conf/context.xml /opt/tomcat/apache-tomcat-9.0.76/webapps/manager/META-INF/
 COPY conf/context.xml /opt/tomcat/apache-tomcat-9.0.76/webapps/host-manager/META-INF/
 #CMD ["/opt/tomcat/apache-tomcat-9.0.76/bin/startup.sh", "run"]
 CMD /opt/tomcat/apache-tomcat-9.0.76/bin/catalina.sh run
-EXPOSE 8080
+EXPOSE 8088
